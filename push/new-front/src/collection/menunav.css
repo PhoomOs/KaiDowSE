@@ -1,0 +1,8 @@
+.addButton {
+  display: flex;
+  justify-content: center;
+}
+
+.menuText {
+  text-align: center;
+}

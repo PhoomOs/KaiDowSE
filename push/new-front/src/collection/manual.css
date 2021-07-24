@@ -1,0 +1,92 @@
+.manual header {
+  grid-column: 1 / 3;
+  background: #fed049;
+  color: white;
+  padding: 4rem;
+  text-align: center;
+  position: static;
+}
+.manual {
+  background: #fff;
+}
+.manual nav {
+  background: white;
+  top: 0;
+  bottom: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  align-self: start;
+}
+.manual nav ul li a {
+  display: block;
+  padding: 1rem 1rem;
+  color: black;
+  text-decoration: none;
+  font-size: 20;
+  font-weight: 900;
+}
+.manual nav ul li a.current {
+  background: #f0bc2c;
+  color: white;
+}
+.manual nav ul li a:hover {
+  background: #f0bc2c;
+  color: white;
+}
+.manual main {
+  padding-bottom: 20rem;
+}
+.manual section {
+  padding: 2rem;
+  margin: 0 0 2rem 0;
+}
+.feature header {
+  background: #ffc928;
+  color: rgba(255, 255, 255, 0.541);
+  padding: 4rem;
+  font-size: 30px;
+  text-align: center;
+  position: static;
+}
+.feature {
+  background: #f9fafd;
+}
+.feature nav {
+  background: #f9fafd;
+  top: 0;
+  bottom: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  text-align: end;
+}
+.feature nav ul {
+  list-style-type: none;
+}
+.feature nav ul li a {
+  display: block;
+  padding: 1rem 1rem;
+  color: black;
+  text-decoration: none;
+  font-size: 20;
+  font-weight: 900;
+}
+.feature nav ul li a.current {
+  background: #fad368;
+  color: white;
+}
+.feature nav ul li a:hover {
+  background: #fad368;
+  color: white;
+}
+.feature main {
+  padding-bottom: 20rem;
+}
+.feature section {
+  padding: 2rem;
+  margin: 0 0 2rem 0;
+  text-align: right;
+}
+.feature section.current {
+  background: #fad368;
+  color: white;
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+html,
+body,
+code {
+  margin: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Athiti', sans-serif;
+  font-family: 'Concert One', cursive;
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffc107;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffc107;
+}

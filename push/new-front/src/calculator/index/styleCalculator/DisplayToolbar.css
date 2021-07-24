@@ -1,0 +1,72 @@
+.display {
+  display: flex;
+  flex-flow: column;
+  -ms-flex-flow: column;
+  justify-content: space-between;
+  padding: 15px 15px 0 15px;
+  background-color: #fff;
+  width: 98.3%;
+  flex-grow: 1;
+}
+
+.display-formula,
+.display-input {
+  width: 100%;
+  resize: none;
+  font-family: 'Athiti', sans-serif;
+  border: none;
+  outline: none;
+  text-align: right;
+  background-color: inherit;
+}
+
+.display-formula {
+  flex-grow: 1;
+  font-size: 2rem;
+}
+
+.display-input {
+  flex-shrink: 0;
+  font-size: 1.75rem;
+  color: #888;
+  white-space: nowrap;
+  padding-bottom: 15px;
+}
+
+/* Toolbar */
+
+.toolbar {
+  background-color: #fff;
+  /* width: 100%; */
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  width: 98.3%;
+  padding: 1px;
+  color: #3da4ab;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.4rem;
+  flex-shrink: 0;
+}
+
+.toolbar-item:hover {
+  cursor: pointer;
+  color: #ffce3c;
+}
+
+.toolbar-item-option {
+  margin-left: 0px;
+}
+
+#view-history {
+  -webkit-transition: all 0.35s ease-out;
+  -moz-transition: all 0.35s ease-out;
+  transition: all 0.35s ease-out;
+}
+
+#backspace {
+  margin-left: 340px;
+  font-size: 1.5rem;
+  z-index: 900;
+}

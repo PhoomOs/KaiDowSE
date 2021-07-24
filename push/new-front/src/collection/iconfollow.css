@@ -1,0 +1,113 @@
+#myBtn {
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  bottom: 150px;
+  right: 70px;
+  z-index: 99;
+  border: none;
+  background-color: #ebe5e5;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+}
+#myDBtn {
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  bottom: 60px;
+  right: 70px;
+  z-index: 99;
+  border: none;
+  background-color: #ebe5e5;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+#myDBtn:hover {
+  background-color: #555;
+}
+#myOBtn {
+  width: 100px;
+  height: 70px;
+  position: fixed;
+  bottom: 60px;
+  z-index: 99;
+  border: none;
+  background-color: #ebe5e5;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 20%;
+  animation: mymove 4s infinite;
+}
+@keyframes mymove {
+  0% {
+    left: -50px;
+  }
+  50% {
+    left: 80px;
+    background-color: #ffce3c;
+  }
+  75% {
+    left: 80px;
+    background-color: #ffce3c;
+  }
+  100% {
+    left: -50px;
+  }
+}
+#myOBtnnot {
+  width: 100px;
+  height: 70px;
+  left: -50px;
+  position: fixed;
+  bottom: 60px;
+  z-index: 99;
+  border: none;
+  background-color: #ebe5e5;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 20%;
+}
+#list:hover {
+  background-color: #ececec;
+  border-radius: 5%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#delTBut {
+  width: 30px;
+  height: 60px;
+  position: absolute;
+  top: 105px;
+  left: 180px;
+  z-index: 99;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+}
+#CouBtn {
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  z-index: 99;
+  border: none;
+  background-color: #ebe5e5;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+}

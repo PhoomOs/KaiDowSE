@@ -1,0 +1,528 @@
+.roottable {
+  display: flex;
+  justify-content: center;
+  background-color: #f9fafd;
+}
+.card {
+  margin: 20px 20px 20px 20px;
+  display: inline-block;
+  position: relative;
+  width: 2.25rem;
+  height: 4.5rem;
+  box-shadow: 0 0 0 0.2rem #6a6a6a;
+  background: white;
+  border-radius: 0.09rem;
+}
+
+.card:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-right: 2.25rem solid transparent;
+  border-bottom: 4.05rem solid rgba(255, 255, 255, 0.325);
+}
+@keyframes liquid-1 {
+  0% {
+    height: 0%;
+    opacity: 0;
+    top: -0.5rem;
+    right: 0%;
+  }
+  22% {
+    height: 0.28125rem;
+    top: 1rem;
+    opacity: 1;
+    right: 0%;
+  }
+  25% {
+    top: -0.25rem;
+    right: 0%;
+  }
+  35% {
+    height: 1.125rem;
+    top: -0.5rem;
+    right: 0%;
+  }
+  55% {
+    height: 0.28125rem;
+    top: -0.125rem;
+    right: 0%;
+  }
+  60% {
+    height: 0.61875rem;
+    opacity: 1;
+    top: -0.275rem;
+    right: 0%;
+  }
+  96% {
+    height: 0.8rem;
+    opacity: 0;
+    top: 0.5rem;
+    right: 0%;
+  }
+  100% {
+    height: 0;
+    opacity: 0;
+    right: 0%;
+  }
+}
+@keyframes liquid-2 {
+  0% {
+    height: 0;
+    opacity: 0;
+    top: -0.5rem;
+    left: 40%;
+  }
+  17.5% {
+    height: 0.28125rem;
+    top: 0.2rem;
+    opacity: 1;
+    left: 50%;
+  }
+  20% {
+    top: -0.25rem;
+    left: 40%;
+  }
+  25% {
+    height: 1.40625rem;
+    top: -0.625rem;
+    left: 30%;
+  }
+  45% {
+    height: 0.28125rem;
+    top: -0.125rem;
+    left: 20%;
+  }
+  60% {
+    height: 1.40625rem;
+    opacity: 1;
+    top: -0.5rem;
+    left: 0%;
+  }
+  96% {
+    height: 0.84375rem;
+    opacity: 0;
+    top: 0.5rem;
+    left: 0%;
+  }
+  100% {
+    height: 0;
+    opacity: 0;
+    left: 40%;
+  }
+}
+
+.liquid0 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 200px;
+  background: #ffdf7e;
+  animation: load0 1.5s infinite;
+}
+.liquid10 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 200px;
+  background: #ffdf7e;
+  animation: load10 2s infinite;
+}
+.liquid10:after,
+.liquid10:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  height: 1rem;
+  width: 99px;
+  background: #ffdf7e;
+  border-radius: 50%;
+  opacity: 0;
+}
+.liquid10:after {
+  right: 0;
+  animation: liquid-1 3s infinite;
+}
+.liquid10:before {
+  left: 0;
+  animation: liquid-2 3s infinite;
+}
+.liquid20 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 200px;
+  background: #ffdf7e;
+  animation: load20 2s infinite;
+}
+.liquid20:after,
+.liquid20:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  height: 1rem;
+  width: 99px;
+  background: #ffdf7e;
+  border-radius: 50%;
+  opacity: 0;
+}
+.liquid20:after {
+  right: 0;
+  animation: liquid-1 3s infinite;
+}
+.liquid20:before {
+  left: 0;
+  animation: liquid-2 3s infinite;
+}
+.liquid30 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 200px;
+  background: #ffdf7e;
+  animation: load30 2s infinite;
+}
+.liquid30:after,
+.liquid30:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  height: 1rem;
+  width: 99px;
+  background: #ffdf7e;
+  border-radius: 50%;
+  opacity: 0;
+}
+.liquid30:after {
+  right: 0;
+  animation: liquid-1 3s infinite;
+}
+.liquid30:before {
+  left: 0;
+  animation: liquid-2 3s infinite;
+}
+.liquid40 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 200px;
+  background: #ffdf7e;
+  animation: load40 2s infinite;
+}
+.liquid40:after,
+.liquid40:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  height: 1rem;
+  width: 99px;
+  background: #ffdf7e;
+  border-radius: 50%;
+  opacity: 0;
+}
+.liquid40:after {
+  right: 0;
+  animation: liquid-1 3s infinite;
+}
+.liquid40:before {
+  left: 0;
+  animation: liquid-2 3s infinite;
+}
+.liquid50 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 200px;
+  background: #ffdf7e;
+  animation: load50 2s infinite;
+}
+.liquid50after,
+.liquid50:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  height: 1rem;
+  width: 99px;
+  background: #ffdf7e;
+  border-radius: 50%;
+  opacity: 0;
+}
+.liquid50:after {
+  right: 0;
+  animation: liquid-1 3s infinite;
+}
+.liquid50:before {
+  left: 0;
+  animation: liquid-2 3s infinite;
+}
+.liquid60 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 200px;
+  background: #ffdf7e;
+  animation: load60 2s infinite;
+}
+.liquid60:after,
+.liquid60:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  height: 1rem;
+  width: 99px;
+  background: #ffdf7e;
+  border-radius: 50%;
+  opacity: 0;
+}
+.liquid60:after {
+  right: 0;
+  animation: liquid-1 3s infinite;
+}
+.liquid60:before {
+  left: 0;
+  animation: liquid-2 3s infinite;
+}
+.liquid70 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 200px;
+  background: #ffdf7e;
+  animation: load70 2s infinite;
+}
+.liquid70:after,
+.liquid70:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  height: 1rem;
+  width: 99px;
+  background: #ffdf7e;
+  border-radius: 50%;
+  opacity: 0;
+}
+.liquid70:after {
+  right: 0;
+  animation: liquid-1 3s infinite;
+}
+.liquid70:before {
+  left: 0;
+  animation: liquid-2 3s infinite;
+}
+.liquid80 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 200px;
+  background: #ffdf7e;
+  animation: load80 2s infinite;
+}
+.liquid80:after,
+.liquid80:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  height: 1rem;
+  width: 99px;
+  background: #ffdf7e;
+  border-radius: 50%;
+  opacity: 0;
+}
+.liquid80:after {
+  right: 0;
+  animation: liquid-1 3s infinite;
+}
+.liquid80:before {
+  left: 0;
+  animation: liquid-2 3s infinite;
+}
+.liquid90 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 200px;
+  background: #ffdf7e;
+  animation: load90 2s infinite;
+}
+.liquid90:after,
+.liquid90:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  height: 1rem;
+  width: 99px;
+  background: #ffdf7e;
+  border-radius: 50%;
+  opacity: 0;
+}
+.liquid90:after {
+  right: 0;
+  animation: liquid-1 3s infinite;
+}
+.liquid90:before {
+  left: 0;
+  animation: liquid-2 3s infinite;
+}
+.liquid99 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 200px;
+  background: #ffdf7e;
+  animation: load99 2s infinite;
+}
+.liquid100 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 200px;
+  /* background: #ff414d; */
+  background: #81dabe;
+}
+@keyframes load0 {
+  0% {
+    top: 99%;
+  }
+  50% {
+    top: 96%;
+  }
+  100% {
+    top: 99%;
+  }
+}
+@keyframes load10 {
+  0% {
+    top: 90%;
+  }
+  50% {
+    top: 87%;
+  }
+  100% {
+    top: 90%;
+  }
+}
+@keyframes load20 {
+  0% {
+    top: 80%;
+  }
+  50% {
+    top: 77%;
+  }
+  100% {
+    top: 80%;
+  }
+}
+@keyframes load30 {
+  0% {
+    top: 70%;
+  }
+  50% {
+    top: 67%;
+  }
+  100% {
+    top: 70%;
+  }
+}
+@keyframes load40 {
+  0% {
+    top: 60%;
+  }
+  50% {
+    top: 57%;
+  }
+  100% {
+    top: 60%;
+  }
+}
+@keyframes load50 {
+  0% {
+    top: 50%;
+  }
+  50% {
+    top: 47%;
+  }
+  100% {
+    top: 50%;
+  }
+}
+@keyframes load60 {
+  0% {
+    top: 40%;
+  }
+  50% {
+    top: 37%;
+  }
+  100% {
+    top: 40%;
+  }
+}
+@keyframes load70 {
+  0% {
+    top: 30%;
+  }
+  50% {
+    top: 27%;
+  }
+  100% {
+    top: 30%;
+  }
+}
+@keyframes load80 {
+  0% {
+    top: 20%;
+  }
+  50% {
+    top: 17%;
+  }
+  100% {
+    top: 20%;
+  }
+}
+@keyframes load90 {
+  0% {
+    top: 10%;
+  }
+  50% {
+    top: 7%;
+  }
+  100% {
+    top: 10%;
+  }
+}
+@keyframes load99 {
+  0% {
+    top: 4%;
+  }
+  50% {
+    top: 2%;
+  }
+  100% {
+    top: 4%;
+  }
+}
